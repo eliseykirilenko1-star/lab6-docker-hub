@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     student_surname = "Кириленко"
-    return f"<h1>Hello from Docker! V1</h1><p>Виконав: {student_surname}</p>"
+    return f"<h1>Hello from Docker! V2</h1><p>Виконав: {student_surname}</p>"
 
 
 if __name__ == '__main__':
